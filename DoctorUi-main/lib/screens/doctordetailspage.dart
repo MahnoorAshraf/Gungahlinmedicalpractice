@@ -119,7 +119,7 @@ class doctordetailspage extends StatelessWidget {
                                           textAlign: TextAlign.justify),
                                 ),
                                 Container(
-                                  height: screenHeight * 0.2,
+                                  height: screenHeight * 0.27,
                                                           width: screenWidth * 0.8,
                                   padding: EdgeInsets.only(
                                       bottom: 8, left: 16, right: 16),
