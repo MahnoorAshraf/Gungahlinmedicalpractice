@@ -248,7 +248,7 @@ class _AppointmentListState extends State<AppointmentList> {
                                               child: Row(
                                                 children: [
                                                   Text(
-                                                    'Appointment: ',
+                                                    'Appointment:',
                                                     style: TextStyle(
                                                       fontSize: 19,
                                                       fontWeight: FontWeight.bold,
@@ -273,14 +273,11 @@ class _AppointmentListState extends State<AppointmentList> {
             top: 0,
             right: 0,
             child: Container(
-              height: screenHeight * 0.23, // Adjust height as needed
-              width: screenWidth * 0.13, // Adjust width as needed
+              height: screenHeight * 0.23, 
+              width: screenWidth * 0.1, 
               decoration: BoxDecoration(color: Colors.lightBlue,borderRadius: BorderRadius.only(topRight: Radius.circular(10),bottomRight: Radius.circular(10))),
               child: Center(
-                // child: Icon(
-                //   Icons.add,
-                //   color: Colors.white,
-                // ),
+               
               ),
             ),
           ),
