@@ -248,7 +248,7 @@ class _AppointmentListState extends State<AppointmentList> {
                                               child: Row(
                                                 children: [
                                                   Text(
-                                                    'Appointment:',
+                                                    'Appointment: ',
                                                     style: TextStyle(
                                                       fontSize: 19,
                                                       fontWeight: FontWeight.bold,
